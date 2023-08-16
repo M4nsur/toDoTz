@@ -2,7 +2,7 @@ import React from "react";
 
 interface FormProps {
   handleChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
-  value: string | undefined;
+  value: string;
 }
 
 const TodoInput = ({ handleChange, value }: FormProps) => {
